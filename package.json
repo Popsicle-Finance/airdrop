@@ -1,0 +1,11 @@
+{
+  "name": "pager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Keno",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.0.32",
+    "graph-results-pager": "^1.0.3"
+  }
+}
