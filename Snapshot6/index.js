@@ -9,15 +9,15 @@ const fantomProvider = new ethers.providers.JsonRpcProvider("https://rpc.fantom.
 
 const ethProvider = new ethers.providers.JsonRpcProvider("")
 
-const fantomPairs = ['0x84311ECC54D7553378c067282940b0fdfb913675']
+const fantomPairs = ['0x84311ECC54D7553378c067282940b0fdfb913675', '0x93698ad941359a3C771e15CFcE345Abe0191e035']
 const fantomStartBlock = 3081198
 const fantomEndBlock = 3257500
 
-const bscPairs = ['0xfe3171b9c20d002376d4b0097207edf54b02ea3b']
+const bscPairs = ['0xfe3171b9c20d002376d4b0097207edf54b02ea3b', '0xdd60838d3fa7782401e2177ef7611cdb7083a1c1', '0x51F914a192a97408D991FddDAFB8F8537C5Ffb0a', '0x93698ad941359a3C771e15CFcE345Abe0191e035']
 const bscStartBlock = 6114219
 const bscEndBlock = 6191050
 
-const ethPairs = ['0x0efea698136d636e2babad10821e9064fe08f418']
+const ethPairs = ['0x0efea698136d636e2babad10821e9064fe08f418', '0xf362dc4bb0d5bfef95d65434a7168b8ae056d8d6']
 const ethStartBlock = 12136722
 const ethEndBlock = 12154090
 
@@ -139,4 +139,4 @@ const fetchAddresses = async (provider, pairs, blockStartNumber, blockEndNumber,
 //fetchAddresses(bscProvider, 5205069, undefined, "bsc.json")
 
 
-fetchAddresses(ethProvider, ethPairs, ethStartBlock , ethEndBlock, "mainnet5.json")
+fetchAddresses(ethProvider, ethPairs, ethStartBlock , ethEndBlock, "mainnet6.json")
